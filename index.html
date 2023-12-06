@@ -28,26 +28,30 @@
         </ul>
     </nav>
     <div>
-        <button>
+        <button class="q-button">
             GET A QUOTE
         </button>
     </div>
 </header>
 <main>
     <!-- Hero section -->
-    <section class="hero">
-        <h1>DOWNLOAD OUR APP</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel eleifend diam, tempus accumsan neque. Praesent quis dolor.</p>
-        <button>
-            <img src="/Assets/path4.svg" alt="App Store"/>
-            App Store
-        </button>
-        <button>
-            <img src="/Assets/Group.svg" alt="Google Play"/>
-            Google Play
-        </button>
-        <img src="/Assets/phonePhone.svg" alt="big illustrated phone">
-    </section>
+    <div class="hero-wrapper">
+        <section class="hero">
+                <h1 class="hero__h1">Download our App</h1>
+                <p class="hero__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel eleifend diam, tempus accumsan neque. Praesent quis dolor.</p>
+            <div class="button-wrapper">
+                <button class="hero__button">
+                    <img class="align-middle icon" src="/Assets/path4.svg" alt="App Store"/>
+                    <span class="align-middle">App Store </span>
+                </button>
+                <button class="hero__button">
+                    <img class="align-middle icon" src="/Assets/Group.svg" alt="Google Play"/>
+                    <span class="align-middle"> Google Play</span>
+                </button>
+            </div>
+            <img src="/Assets/phonePhone.svg" alt="big illustrated phone">
+        </section>
+    </div>
     <!-- Products -->
     <h1>Our products</h1>
     <section class="small_card_container">

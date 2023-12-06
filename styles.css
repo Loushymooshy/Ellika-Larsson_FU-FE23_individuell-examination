@@ -1,11 +1,15 @@
 body {
     font-family: 'Fira Sans', sans-serif;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 header {
     background-color: #eeeeee;
     display: flex;
     justify-content: space-between;
+    padding: 2vh;
+    font-weight: 500;
 }
 
 
@@ -13,4 +17,82 @@ ul {
     list-style-type: none;
     color: #999999;
     display: flex;
+    gap: 2vw;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.q-button {
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Fira Sans', sans-serif;
+    padding: 10px 30px 10px 30px;
+    border-radius: 3px;
+    border-width: 1px;
+    
+}
+
+main {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-wrapper {
+    background-color: #eeeeee;
+    width: 100%;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.hero__h1 {
+
+    margin: 0;
+    font-size: 52px ;
+    padding-top: 3rem;
+
+}
+
+.hero__p {
+    max-width: 554px;
+    text-align: center;
+    font-weight:normal;
+    color: #4b4b4b;
+}
+
+.button-wrapper {
+
+    display: flex;
+    gap: 2rem;
+    
+}
+
+.hero__button {
+background-color: #222222;
+color: white;
+border-style: none;
+border-radius: 6px;
+font-weight: 500;
+font-family: 'Fira Sans', sans-serif;
+font-size: 16px;
+padding: 9px 9px 9px 9px;
+margin: 3rem 0 3rem 0;
+width: 134px;
+text-align: left;
+
+}
+
+.align-middle {
+vertical-align: middle;
+
+}
+
+.icon { 
+padding: 0 3px 0 3px;
 }
