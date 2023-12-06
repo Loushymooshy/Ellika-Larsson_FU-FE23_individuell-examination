@@ -2,6 +2,7 @@ body {
     font-family: 'Fira Sans', sans-serif;
     max-width: 1440px;
     margin: 0 auto;
+    color: #222222;
 }
 
 header {
@@ -31,6 +32,9 @@ ul {
     border-width: 1px;
     
 }
+
+ /* end of header, start of main 
+Banner  */
 
 main {
 
@@ -93,6 +97,12 @@ vertical-align: middle;
 
 }
 
-.icon { 
+.hero__icon { 
 padding: 0 3px 0 3px;
+}
+
+/* Main articles */
+
+.small-card {
+background-color: #222222;
 }
