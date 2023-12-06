@@ -1,3 +1,16 @@
 body {
     font-family: 'Fira Sans', sans-serif;
 }
+
+header {
+    background-color: #eeeeee;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+ul {
+    list-style-type: none;
+    color: #999999;
+    display: flex;
+}
