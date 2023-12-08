@@ -23,13 +23,14 @@ ul {
     font-weight: 500;
 }
 
-.q-button {
+.button {
     font-size: 12px;
     font-weight: 500;
     font-family: 'Fira Sans', sans-serif;
     padding: 10px 30px 10px 30px;
     border-radius: 3px;
     border-width: 1px;
+    width: 146px;
     
 }
 
@@ -103,6 +104,75 @@ padding: 0 3px 0 3px;
 
 /* Main articles */
 
+.title {
+
+font-size: 53px;
+margin-top: 92px;
+margin-bottom: 80px;
+
+}
+
+.card_container {
+display: grid;
+grid-template-columns: 262px 262px 262px 262px ;
+gap: 30px;
+}
+
 .small-card {
-background-color: #222222;
+background-color: #EBEBEB;
+display:flex;
+flex-direction: column;
+text-align: center;
+grid-row: 1 / span 13;
+}
+
+.small-card__h3 {
+    margin: 0;
+    padding-top: 2rem;
+}
+.small-card__p {
+    margin: 0.6rem;
+}
+.small-card__img {
+width: 96px;
+padding: 5rem;
+
+
+}
+
+.big-card {
+
+    background-color: #343332;
+    color:white ;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    grid-row:    3 / span 12;
+    grid-column: span 2;
+    font-size: 24px;
+
+}
+
+.big-card__h2 {
+
+    margin: 1.3rem;
+}
+
+.big-card__h2::after {
+    content: 'Summer 2021';
+    display: block;
+    font-size: 18px;
+    font-weight: 300;
+    color: #aeadad;
+    margin: 0.3rem;
+}
+
+.big-card__button {
+    background-color: #343434;
+    border-color: #aeadad;
+    color: #aeadad;
+    font-size: 12px;
+   
 }
