@@ -176,3 +176,25 @@ padding: 5rem;
     font-size: 12px;
    
 }
+
+/* Footer */
+
+footer {
+    background-image: url("/Assets/map-background.png");
+    height: 42vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    margin-top: 8rem;
+}
+
+.footer-card {
+    background-color: white;
+    position: absolute;
+    width: 434px;
+    height: 417px ;
+    margin-right: 8vw;
+}
