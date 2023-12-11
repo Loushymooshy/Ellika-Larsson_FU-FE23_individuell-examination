@@ -88,39 +88,41 @@
     </section>
 </main>
 <footer>
+   
     <section class="footer-card">
-        <h1>Contact us</h1>
-        <h3>we'd love to hear from you</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        <h1 class="footer-card__h1">Contact us</h1>
+        <h3 class="footer-card__h3">We'd love to hear from you</h3>
+        <p class="footer-card__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
             Suspendisse vel eleifend diam, tempus accumsan neque.</p>
-        <address>
-            <ul>
-                <li> Vallgatan 25, Göteborg</li>
-                <li>031 123 456 7</li>
-                <li>info@zocom.se</li>
-            </ul>
+        <address class="footer-card__address">
+            <ul class="footer-card__address__list">
+                <li class="footer-card__address__list__item"> <img class="footer-card__address__list__icon" src="/Assets/navigate-outline 1.svg"> Vallgatan 25, Göteborg</li>
+                <li class="footer-card__address__list__item"> <img class="footer-card__address__list__icon" src="/Assets/call-outline 1.svg">031 123 456 7</li>
+                <li class="footer-card__address__list__item"> <img class="footer-card__address__list__icon" src="/Assets/mail-outline 1.svg">info@zocom.se</li>
+            </ul> 
         </address>
     </section>
     <form action="#" method="post">
         
-        <label for="name">Namn:</label>
+        <label for="name">Name:</label>
         <input type="text" id="name" name="name" required>
 
-        <label for="email">E-post:</label>
+        <label for="email">Email:</label>
         <input type="email" id="email" name="email" required>
 
-        <label for="address">Adress:</label>
+        <label for="address">Address:</label>
         <input type="text" id="address" name="address" required>
 
-        <label for="mobile">Mobilnummer:</label>
+        <label for="mobile">Phone:</label>
         <input type="tel" id="mobile" name="mobile" required>
 
         <label for="other">Övrig information:</label>
         <textarea id="other" name="other" rows="4"></textarea>
 
-        <input type="submit" value="Skicka">
+        <input class="button form__button" type="submit" value="Skicka">
 
     </form>
+ 
 
     <!-- namn, mail, adress, mobilnummer och övrig information från användaren -->
 

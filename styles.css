@@ -187,23 +187,123 @@ footer {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    position: relative;
+    /* position: relative; */
     margin-top: 8rem;
+    gap:30px;
+    flex-wrap: wrap;
 }
 
 .footer-card {
     background-color: white;
-    position: absolute;
+    max-width: 434px;
+    min-width: 342px;
     width: 434px;
     height: 417px ;
-    margin-right: 8vw;
+    display:flex;
+    flex-direction: column;
+    font-size: 14px;
+    text-align: left;
+    padding-left: 33px;
+    box-sizing: border-box;
+    border-radius: 3px;
+
 }
 
+.footer-card__h1 {
+    font-size: 53px ;
+    margin-bottom: 0;
+}
+
+.footer-card__h3 {
+
+font-size:22px ;
+color: #4e4e4e ;
+margin-bottom: 0;
+margin-top: 15px ;
+}
+
+.footer-card__p {
+    color: #7a7a7a;
+    font-weight: 500;
+    margin: 7px 0 40px 0;
+}
+
+.footer-card__address__list {
+    display: flex;
+    flex-direction: column;
+    padding:0;
+    gap: 25px;
+    font-style: normal;
+    font-weight:500;
+    color: #222222;
+}
+
+.footer-card__address__list__item { 
+display: flex;
+align-items: center;
+
+}
+
+.footer-card__address__list__icon {
+    margin-right: 17px;
+    vertical-align: middle;
+
+
+}
+
+
 form {
-    max-width: 400px;
-    margin: 0 auto;
+    max-width: 434px;
     background-color: white;
-    position: absolute;
-    width: 434px;
     height: 417px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 18px 33px 18px 33px;
+    box-sizing: border-box;
+    font-size: 12px;
+    font-weight: 500;
+    margin-right: 4vw;
+    border-radius: 3px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 1px;
+    margin-top: 1rem;
+    max-width: 250px;
+  }
+
+  input {
+    max-width: 250px;
+    background-color: #EBEBEB;
+    border: 1px solid #aeadad;
+    border-radius: 2px;
+  }
+
+  textarea {
+    max-width: 250px;
+    background-color: #EBEBEB;
+    resize: none;
+    border: 1px solid #aeadad;
+    border-radius: 2px;
+  }
+
+  .form__button {
+    margin-top: 33px;
+    margin-bottom: 8px;
+    align-self: center;
+    background-color: #222222;
+    color: white;
+    text-transform: uppercase;
+  }
+
+  input:focus {
+    background-color: white;
+    outline: none;
+  }
+
+  textarea:focus {
+    background-color: white;
+    outline: none;
   }
