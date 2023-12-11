@@ -198,3 +198,12 @@ footer {
     height: 417px ;
     margin-right: 8vw;
 }
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: white;
+    position: absolute;
+    width: 434px;
+    height: 417px ;
+  }
