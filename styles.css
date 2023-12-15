@@ -31,7 +31,7 @@ ul {
     border-radius: 3px;
     border-width: 1px;
     width: 146px;
-    
+
 }
 
 .header__hamburger-menu {
@@ -39,7 +39,7 @@ ul {
     display: none;
 }
 
- /* end of header, start of main 
+/* end of header, start of main 
 Banner  */
 
 main {
@@ -63,7 +63,7 @@ main {
 .hero__h1 {
 
     margin: 0;
-    font-size: 52px ;
+    font-size: 52px;
     padding-top: 3rem;
 
 }
@@ -71,7 +71,7 @@ main {
 .hero__p {
     max-width: 554px;
     text-align: center;
-    font-weight:normal;
+    font-weight: normal;
     font-size: 1rem;
     color: #4b4b4b;
 }
@@ -80,71 +80,73 @@ main {
 
     display: flex;
     gap: 2rem;
-    
+
 }
 
 .hero__button {
-background-color: #222222;
-color: white;
-border-style: none;
-border-radius: 6px;
-font-weight: 500;
-font-family: 'Fira Sans', sans-serif;
-font-size: 16px;
-padding: 9px 9px 9px 9px;
-margin: 3rem 0 3rem 0;
-width: 134px;
-text-align: left;
+    background-color: #222222;
+    color: white;
+    border-style: none;
+    border-radius: 6px;
+    font-weight: 500;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 16px;
+    padding: 9px 9px 9px 9px;
+    margin: 3rem 0 3rem 0;
+    width: 134px;
+    text-align: left;
 
 }
 
 
 .align-middle {
-vertical-align: middle;
+    vertical-align: middle;
 
 }
 
-.hero__icon { 
-padding: 0 3px 0 3px;
+.hero__icon {
+    padding: 0 3px 0 3px;
 }
 
 /* Main articles */
 
 .title {
 
-font-size: 53px;
-margin-top: 92px;
-margin-bottom: 80px;
+    font-size: 53px;
+    margin-top: 92px;
+    margin-bottom: 80px;
 
 }
 
 .card_container {
-display: grid;
-grid-template-columns: 262px 262px 262px 262px ;
-grid-template-rows: 383px 349px ;
-gap: 30px;
+    display: grid;
+    grid-template-columns: 262px 262px 262px 262px;
+    grid-template-rows: 383px 349px;
+    gap: 30px;
 }
 
 .small-card {
-background-color: #EBEBEB;
-display:flex;
-flex-direction: column;
-text-align: center;
-grid-row-start: 1;
-grid-row-end: 2;
+    background-color: #EBEBEB;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    grid-row-start: 1;
+    grid-row-end: 2;
 }
 
 .small-card__h3 {
     margin: 0;
 }
+
 .small-card__p {
     margin: 0.6rem;
 }
+
 .small-card__img {
-width: 96px;
-margin: 0 auto;
-padding-top: 100px;
-padding-bottom: 115px;
+    width: 96px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 115px;
 
 
 }
@@ -152,8 +154,8 @@ padding-bottom: 115px;
 .big-card {
 
     background-color: #343332;
-    color:white ;
-    display:flex;
+    color: white;
+    display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
@@ -185,7 +187,7 @@ padding-bottom: 115px;
     color: #aeadad;
     font-size: 12px;
     transition: transform 1s;
-   
+
 }
 
 
@@ -201,7 +203,7 @@ footer {
     align-items: center;
     /* position: relative; */
     margin-top: 8rem;
-    gap:30px;
+    gap: 30px;
     flex-wrap: wrap;
 }
 
@@ -210,8 +212,8 @@ footer {
     max-width: 434px;
     min-width: 342px;
     width: 434px;
-    height: 417px ;
-    display:flex;
+    height: 417px;
+    display: flex;
     flex-direction: column;
     font-size: 14px;
     text-align: left;
@@ -222,16 +224,16 @@ footer {
 }
 
 .footer-card__h1 {
-    font-size: 53px ;
+    font-size: 53px;
     margin-bottom: 0;
 }
 
 .footer-card__h3 {
 
-font-size:22px ;
-color: #4e4e4e ;
-margin-bottom: 0;
-margin-top: 15px ;
+    font-size: 22px;
+    color: #4e4e4e;
+    margin-bottom: 0;
+    margin-top: 15px;
 }
 
 .footer-card__p {
@@ -243,16 +245,16 @@ margin-top: 15px ;
 .footer-card__address__list {
     display: flex;
     flex-direction: column;
-    padding:0;
+    padding: 0;
     gap: 25px;
     font-style: normal;
-    font-weight:500;
+    font-weight: 500;
     color: #222222;
 }
 
-.footer-card__address__list__item { 
-display: flex;
-align-items: center;
+.footer-card__address__list__item {
+    display: flex;
+    align-items: center;
 
 }
 
@@ -267,7 +269,7 @@ align-items: center;
 form {
     max-width: 434px;
     background-color: white;
-    height: 417px ;
+    height: 417px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -277,170 +279,179 @@ form {
     font-weight: 500;
     margin-right: 4vw;
     border-radius: 3px;
-  }
+}
 
-  label {
+label {
     display: block;
     margin-bottom: 1px;
     margin-top: 1rem;
     max-width: 250px;
-  }
+}
 
-  input {
+input {
     max-width: 250px;
     background-color: #EBEBEB;
     border: 1px solid #aeadad;
     border-radius: 2px;
-  }
+}
 
-  textarea {
+textarea {
     max-width: 250px;
     background-color: #EBEBEB;
     resize: none;
     border: 1px solid #aeadad;
     border-radius: 2px;
-  }
+}
 
-  .form__button {
+.form__button {
     margin-top: 33px;
     margin-bottom: 8px;
     align-self: center;
     background-color: #222222;
     color: white;
     text-transform: uppercase;
-  }
+}
 
-  input:focus {
+input:focus {
     background-color: white;
     outline: none;
-  }
+}
 
-  textarea:focus {
+textarea:focus {
     background-color: white;
     outline: none;
-  }
+}
 
 
-  @keyframes button-hover {
-    
-    100% { background-color: #EBEBEB;
-    color: #222222;
-    border-color: #222222;
-    
+@keyframes button-hover {
+
+    100% {
+        background-color: #EBEBEB;
+        color: #222222;
+        border-color: #222222;
+
     }
-  }
-  .button:hover {
-    animation: button-hover 300ms ease-in forwards ;
-    cursor: pointer;
-  }
+}
 
-  .hero__button:hover {
+.button:hover {
+    animation: button-hover 300ms ease-in forwards;
+    cursor: pointer;
+}
+
+.hero__button:hover {
     cursor: pointer;
     animation: hero-button-hover 50ms ease-in forwards;
-  }
-
-  @keyframes hero-button-hover {
-    100% { scale: 1.1;}
-  }
-
-  @media (max-width: 767px) {
-
-
-
-  .header__menu { 
-    display:none
-  }
-  .header__button {
-    display: none;
-  }
-  .header__hamburger-menu {
-
-    display: block;
 }
 
-.hero__h1 {
-    font-size: 36px ;
+@keyframes hero-button-hover {
+    100% {
+        scale: 1.1;
+    }
 }
 
-.hero__p {
- font-size: 12px;
-    margin: 3vw 2.9rem 0 2.9rem;
-}
-
-.button-wrapper {
-    gap: 1rem;
-}
+@media (max-width: 767px) {
 
 
-.hero__img {
-    width: 272px;
-    height: 264px;
-}
 
-.title {
-
-    font-size: 36px;
-    margin-top: 60px;
-    margin-bottom: 50px;
-    
+    .header__nav {
+        display: none
     }
 
-.card_container {
-    grid-template-columns: repeat(2, 164px); 
-    grid-template-rows: 238px 238px 216px 216px; 
-    gap: 16px;
+    .header__button {
+        display: none;
     }
-.small-card {
-grid-row: auto;
-grid-column: auto;
 
-}
+    .header__hamburger-menu {
 
-.big-card {
-  grid-row: auto;
-  grid-column: span 2;
-  margin-top: 0;
-}
-
-.grid5 {
-    margin-top: 16px;
-}
-
-.small-card__img {
-    width: 60px;
-    margin: 0 auto;
-    padding-top: 60px;
-    padding-bottom: 65px;
+        display: block;
     }
+
+    .hero__h1 {
+        font-size: 36px;
+    }
+
+    .hero__p {
+        font-size: 12px;
+        margin: 3vw 2.9rem 0 2.9rem;
+    }
+
+    .button-wrapper {
+        gap: 1rem;
+    }
+
+
+    .hero__img {
+        width: 272px;
+        height: 264px;
+    }
+
+    .title {
+
+        font-size: 36px;
+        margin-top: 60px;
+        margin-bottom: 50px;
+
+    }
+
+    .card_container {
+        grid-template-columns: repeat(2, 164px);
+        grid-template-rows: 238px 238px 216px 216px;
+        gap: 16px;
+    }
+
+    .small-card {
+        grid-row: auto;
+        grid-column: auto;
+
+    }
+
+    .big-card {
+        grid-row: auto;
+        grid-column: span 2;
+        margin-top: 0;
+    }
+
+    .grid5 {
+        margin-top: 16px;
+    }
+
+    .small-card__img {
+        width: 60px;
+        margin: 0 auto;
+        padding-top: 60px;
+        padding-bottom: 65px;
+    }
+
     .small-card__p {
         margin: 0;
     }
 
     footer {
         height: 556px;
-        background-repeat:repeat-x;
+        background-repeat: repeat-x;
         justify-content: center;
         align-items: center;
         margin-top: 8rem;
-        gap:0;
+        gap: 0;
     }
 
     .footer-card {
         width: 343px;
         padding-right: 33px;
- }
+    }
 
- .footer-card__h1 {
-    font-size: 36px ;
-    margin: 3rem 0 1rem 0;
+    .footer-card__h1 {
+        font-size: 36px;
+        margin: 3rem 0 1rem 0;
+    }
+
+    .footer-card__h3 {
+
+        font-size: 18px;
+    }
+
+    form {
+
+        display: none;
+    }
 }
-
-.footer-card__h3 {
-
-font-size:18px ;
-}
-
- form {
-
-    display: none;
- }
