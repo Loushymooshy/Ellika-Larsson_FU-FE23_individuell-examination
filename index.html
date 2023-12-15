@@ -10,14 +10,14 @@
     <title>Inviduell examination</title>
 </head>
 <body>
-<header>
-    <div>
+<header class="header">
+    <div class="header__logo">
         <a href="">
             <img src="/Assets/zocom-logo 1.png" alt="ZoCom logo">
         </a>
     </div>
 
-    <nav class="menu" alt="Menu">
+    <nav class="header__menu" alt="Menu">
         <ul>
             <li> <span style="color: #222222;">HOME</li>
             <li>HOW IT WORKS</li>
@@ -27,19 +27,22 @@
             <li>CONTACT</li>
         </ul>
     </nav>
-    <div>
+    <div class="header__button">
         <button class="button">
             GET A QUOTE
         </button>
     </div>
+    <div class="header__hamburger-menu">
+        <img src="/Assets/navicon.svg" alt="hamburgermenu">
+    </div>
 </header>
 <main>
     <!-- Hero section -->
-    <div class="hero-wrapper">
-        <section class="hero">
+    <div class="hero">
+        <section class="hero__wrapper">
                 <h1 class="hero__h1">Download our App</h1>
                 <p class="hero__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel eleifend diam, tempus accumsan neque. Praesent quis dolor.</p>
-            <div class="button-wrapper">
+            <div class="hero__button-wrapper">
                 <button class="hero__button">
                     <img class="align-middle hero__icon" src="/Assets/path4.svg" alt="App Store"/>
                     <span class="align-middle">App Store </span>
@@ -49,7 +52,7 @@
                     <span class="align-middle"> Google Play</span>
                 </button>
             </div>
-            <img src="/Assets/phonePhone.svg" alt="big illustrated phone">
+            <img class="hero__img" src="/Assets/phonePhone.svg" alt="big illustrated phone">
         </section>
     </div>
     <!-- Products -->
@@ -75,13 +78,11 @@
             <h3 class="small-card__h3">Nerd tshirt</h3>
             <p class="small-card__p">US$9.99</p>
         </article>
-    </section>
-    <section class="card_container">
-        <article class="big-card" class="grid5">
+        <article class="big-card grid5">
             <h2 class="big-card__h2">COLLECTION</h2>
             <button class="button big-card__button">CHECK IT OUT</button>
         </article>
-        <article class="big-card" class="grid6">
+        <article class="big-card grid6">
             <h2 class="big-card__h2">COLLECTION</h2>
             <button class="button big-card__button">CHECK IT OUT</button>
         </article>
